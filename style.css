@@ -1,3 +1,4 @@
+/* Style using Tag */
 body{
     margin: 0;
     font-family: 'Otomanopee One', sans-serif;
@@ -8,49 +9,41 @@ footer p{
     font-size: x-small;
 }
 
-#owner{
-    font-size: 40px;
-}
-
+/* Style using ID */
+#owner{ font-size: 40px }
 #full-stack{
     border-left: 8px solid;
     border-image: linear-gradient(lightsalmon, tomato);
     border-image-slice: 1;
 }
-
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
 
+/* Style using Class */
 .flexible-container{
     display: flex;
     margin-bottom: 10px;
 }
-
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 
-.orange{
-    color: orange;
-}
-
+.orange{ color: orange }
 .half-width{
     max-width: 50%;
     padding-left: 75px;
     padding-right: 50px;
     margin: auto;
 }
-
 .half-width img{
     max-height: 50%;
     max-width: 50%;
     padding-left: 50px;
 }
-
 .link-button{
     text-decoration: none;
     padding: 10px 40px;
@@ -59,7 +52,6 @@ footer p{
     color: white;
     font-weight: 700;
 }
-
 .dream-big{
     background-image: url("images/dream-bg.png");
     background-size: 70px;
@@ -67,7 +59,6 @@ footer p{
     background-position: right ;
     background-position-y: bottom;
 }
-
 .experience-area{
     background-image: url("images/exp-bg.png");
     background-size: 80px;
@@ -75,7 +66,6 @@ footer p{
     background-position: left;
     background-position-y: bottom;
 }
-
 .experience-item{
     width: 40%;
     box-shadow: 10px 10px 15px gray;
