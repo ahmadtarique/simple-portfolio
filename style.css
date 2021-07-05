@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+section{
+    display: flex;
+}
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.orange{
+    color: orange;
+    font-size: 40px;
+}
+
+.half-width{
+    max-width: 50%;
+    /* padding-top: 50px; */
+    padding-left: 100px;
+}
+
+.half-width a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(lightsalmon, orange, tomato);
+    border-radius: 7px;
+}
+
+.half-width img{
+    max-height: 50%;
+    padding-left: 100px;
+}
